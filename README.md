@@ -13,8 +13,6 @@
 ## MiTool To-Do List:
 
 - [x] Unlock Bootloader
-- [x] Flash Fastboot ROM
-- [ ] More
 
 ## Installation:
 
