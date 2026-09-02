@@ -69,10 +69,10 @@ run_step "Installing miunlock" \
 "pip install -U miunlock"
 
 run_step "download mitool.py" \
-"curl -s \"https://raw.githubusercontent.com/MiForge/MiTool/master/MT/mitool.py\" -o \"$PREFIX/bin/mitool\" && chmod +x \"$PREFIX/bin/mitool\""
+"curl -s \"https://raw.githubusercontent.com/danger24bot/helproot-unlocktool/main/MT/mitool.py\" -o \"$PREFIX/bin/mitool\" && chmod +x \"$PREFIX/bin/mitool\""
 
 
-curl -s -L https://raw.githubusercontent.com/MiForge/MiTool/main/CHANGELOG.md | tac | awk -v I="$I" -v N="$N" '/^#/{exit} {print I $0 N}' | tac
+curl -s -L https://raw.githubusercontent.com/danger24bot/helproot-unlocktool/main/CHANGELOG.md | tac | awk -v I="$I" -v N="$N" '/^#/{exit} {print I $0 N}' | tac
 
 echo -e "${G}✔ Installation completed successfully${N}\n"
 
